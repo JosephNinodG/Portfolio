@@ -17,7 +17,7 @@ function Index() {
       <Helmet>
         <title>Joseph Nino de Guzman</title>
       </Helmet>
-      <h1>Gatsby + Node.js (TypeScript) API</h1>
+      <h1>Joseph Nino de Guzman</h1>
       <h2>
         Deployed with{' '}
         <a
