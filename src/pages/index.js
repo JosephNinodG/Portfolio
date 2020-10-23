@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from "gatsby";
 import '../styles/index.css';
 
 function Index() {
@@ -29,15 +30,9 @@ function Index() {
         </a>
         !
       </h2>
-      <p>
-        <a
-          href="testerpage.js"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Tester page
-        </a>
-      </p>
+      <div>
+        <Link to="/testerpage/">Tester Page</Link>
+      </div>
       <p>
         <a
           href="https://github.com/vercel/vercel/tree/master/examples/gatsby"
