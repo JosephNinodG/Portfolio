@@ -33,6 +33,9 @@ function Index() {
       <div>
         <Link to="/testerpage/">Tester Page</Link>
       </div>
+      <div>
+        <Link to="/about/">About me</Link>
+      </div>
       <p>
         <a
           href="https://github.com/vercel/vercel/tree/master/examples/gatsby"
