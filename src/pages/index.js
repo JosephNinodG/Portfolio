@@ -31,6 +31,15 @@ function Index() {
       </h2>
       <p>
         <a
+          href="testerpage.js"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Tester page
+        </a>
+      </p>
+      <p>
+        <a
           href="https://github.com/vercel/vercel/tree/master/examples/gatsby"
           target="_blank"
           rel="noreferrer noopener"
