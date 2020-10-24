@@ -1,11 +1,12 @@
 import React from "react";
-import Header from "../components/header"
+import Header from "../components/header";
+import Layout from "../components/layout";
 
 export default function About() {
     return(
-        <div>
+        <Layout>
             <Header headerText="About me" /> 
             <p>This is where I would talk about who I am</p>
-        </div>
+        </Layout>
     );
 }
